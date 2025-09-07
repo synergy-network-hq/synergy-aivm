@@ -71,6 +71,7 @@ logs/
 tmp/
 temp/
 *.pid
+.cache
 
 # ------------------------------
 # Secrets (never commit!)

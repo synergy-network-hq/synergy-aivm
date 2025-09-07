@@ -1,0 +1,81 @@
+# ------------------------------
+# Rust Artifacts
+# ------------------------------
+/runtime/aivm-core/target/
+/runtime/aivm-node/target/
+/verifier/verifier-core/target/
+/sdk/rust/target/
+/**/*.rs.bk
+
+# ------------------------------
+# Node / JavaScript
+# ------------------------------
+node_modules/
+/synergy_portal_integration/web-ui/node_modules/
+/model-registry/registry-api/node_modules/
+/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------
+# Python
+# ------------------------------
+/sdk/python/__pycache__/
+/sdk/python/*.py[cod]
+/sdk/python/*.egg-info/
+/sdk/python/build/
+/sdk/python/dist/
+/providers/gpu-worker/__pycache__/
+/providers/gpu-worker/*.py[cod]
+*.env
+*.venv
+
+# ------------------------------
+# IDEs
+# ------------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ------------------------------
+# Docker
+# ------------------------------
+**/Dockerfile.build
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+**/tmp/
+
+# ------------------------------
+# Kubernetes / Deployments
+# ------------------------------
+**/*.kube.yaml
+**/*.k8s.yaml
+
+# ------------------------------
+# Git / OS
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ------------------------------
+# Logs / Temporary
+# ------------------------------
+logs/
+*.log
+tmp/
+temp/
+*.pid
+
+# ------------------------------
+# Secrets (never commit!)
+# ------------------------------
+*.pem
+*.key
+*.crt
+*.sops.yaml
